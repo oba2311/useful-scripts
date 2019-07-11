@@ -1,0 +1,18 @@
+#to start the virtualenv with python 3: 
+mkvirtualenv -p /usr/local/bin/python3  <venv-name>
+
+#to start existing virtualenv with python 3: 
+source activate 
+workon <env_name>
+
+#start a django server with: 
+python manage.py runserver
+
+#start an app with: 
+python manage.py startapp <appname>
+
+#start a project with: 
+python manage.py django-admin startproject <projectname>
+to activate the autograder environment:
+to resume / activate existing virualenv:
+workon <env_name>
