@@ -37,7 +37,7 @@
   'cmd-`': 'platformio-ide-terminal:toggle'
   'cmd-shift-`': 'platformio-ide-terminal:close'
 
-# lint based on PEP8 style:
+# lint based on PEP8 style: 
 'atom-text-editor[data-grammar="source python"]':
   'cmd-alt-l': 'python-autopep8:format'
 
